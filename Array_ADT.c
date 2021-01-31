@@ -142,7 +142,7 @@ void main(){
     arr.length = n; //set array length
 
     system("clear"); 
-    while(choice !=0){
+    do{
         printf("\n\n*****MAIN MENU******\n\n");
         printf("\n0. Exit");
         printf("\n1. Display");
@@ -238,5 +238,5 @@ void main(){
             default :   printf("*****Choose Vaild Option*****");
                         break;
         }
-    }
+    }while(choice !=0);
 }
